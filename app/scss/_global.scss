@@ -1,0 +1,130 @@
+@use "./variables" as v;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: v.$very_light_gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: v.$lexend_deca_font-family;
+    font-weight: v.$four_hundred_font-weight;
+    font-size: v.$font-size;
+    line-height: 1.5;
+}
+h1{
+    color: v.$very_light_gray; 
+    font-family: v.$big_shoulder_font_family;
+    font-weight: v.$seven_hundred_font-weight;
+    text-transform: uppercase;
+}
+p{
+    color: v.$transparent_white;
+    padding-right: 2.8125rem;
+    @include v.mobile{
+        padding-right: 4.6875rem;
+    }
+}
+
+button{
+    border-radius: 3.125rem;
+    border: none;
+    width: 9.3125rem;
+    height: 3.125rem;
+    margin-top: 5.625rem;
+    margin-left: 3.125rem;
+    @include v.mobile {
+        margin: 1.9375rem 0rem 3.125rem 1.25rem;
+    }
+}
+img{
+    margin-top: 3.125rem;
+}
+
+img, h1, p{
+    padding-left: 3.125rem;
+    @include v.mobile{
+        padding-left: 1.25rem;
+    }
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    @include v.mobile{
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+.flex-items{
+    max-width: 19.125rem;
+    height: 31.3125rem;
+    @include v.mobile{
+        max-width: 20.625rem;
+        height: 27.5625rem;
+    }
+}
+
+.sedan-item{
+    background-color: v.$bright_orange;
+    border-top-left-radius: 0.625rem;
+    @include v.mobile{
+        border-top-right-radius: 0.625rem;
+    }
+    @include v.laptop{
+        border-bottom-left-radius: 0.625rem;
+    }
+}
+.suvs-item{
+    background-color: v.$dark_cyan;
+}
+.luxury-item{
+    background-color: v.$very_dark_cyan;
+    border-bottom-right-radius: 0.625rem;
+    @include v.mobile{
+        border-bottom-left-radius: 0.625rem;
+    }
+    @include v.laptop{
+        border-top-right-radius: 0.625rem; 
+    }
+}
+.sedan-button{
+    background-color: v.$very_light_gray;
+    color: v.$bright_orange;
+}
+.sedan-button:hover{
+    background-color: v.$bright_orange;
+    color: v.$very_light_gray;
+    border: 2px solid v.$very_light_gray;
+}
+
+.suvs-button{
+    background-color: v.$very_light_gray;
+    color: v.$dark_cyan;
+}
+.suvs-button:hover{
+    background-color: v.$dark_cyan;
+    color: v.$very_light_gray;
+    border: 2px solid v.$very_light_gray;
+}
+
+.luxury-button{
+    background-color:v.$very_light_gray;
+    color: v.$very_dark_cyan
+}
+.luxury-button:hover{
+    background-color: v.$very_dark_cyan;
+    color: v.$very_light_gray;
+    border: 2px solid v.$very_light_gray;
+}
