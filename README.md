@@ -23,11 +23,11 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### screenshot
 
 ![Frontend Mentor |3-column preview card solution](./screenshot.png).
 
-### Links
+### links
 
 - Solution URL: [3-column_preview_card_component](https://github.com/mayor-creator/3_column_preview_card_component)
 - Live Site URL: [3-column_preview_card_component](https://github.com/mayor-creator/3_column_preview_card_component)
