@@ -30,7 +30,7 @@ Users should be able to:
 ### links
 
 - Solution URL: [3-column_preview_card_component](https://github.com/mayor-creator/3_column_preview_card_component)
-- Live Site URL: [3-column_preview_card_component](https://github.com/mayor-creator/3_column_preview_card_component)
+- Live Site URL: [3-column_preview_card_component_live_site](https://column-preview-card-component-seven.vercel.app/)
 
 ## My process
 
