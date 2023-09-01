@@ -6,6 +6,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot] (#screenshot)
+  - [Links] (#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -21,6 +23,15 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
+### Screenshot
+
+![Frontend Mentor |3-column preview card solution](./screenshot.png).
+
+### Links
+
+- Solution URL: [3-column_preview_card_component](https://github.com/mayor-creator/3_column_preview_card_component)
+- Live Site URL: [3-column_preview_card_component](https://github.com/mayor-creator/3_column_preview_card_component)
+
 ## My process
 
 ### Built with
@@ -28,7 +39,6 @@ Users should be able to:
 - HTML
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### Continued development
